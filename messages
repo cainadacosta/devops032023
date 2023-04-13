@@ -1,0 +1,32 @@
+Apr  9 00:10:02 debian rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="446" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Apr  9 00:33:31 debian kernel: [ 1748.572526] 12:29:27.516957 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  9 00:33:31 debian kernel: [55992.491945] usb 2-1: USB disconnect, device number 2
+Apr  9 00:33:31 debian kernel: [55992.492704] 03:33:31.798857 control  Session 0 is about to close ...
+Apr  9 00:33:31 debian kernel: [55992.493093] 03:33:31.799369 control  Stopping all guest processes ...
+Apr  9 00:33:31 debian kernel: [55992.493401] 03:33:31.799787 control  Closing all guest files ...
+Apr  9 00:33:31 debian kernel: [55992.495197] 03:33:31.801445 control  vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Apr 12 21:48:11 debian kernel: [55992.695460] 03:33:32.001006 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr 12 21:48:11 debian kernel: [55992.803709] 00:48:11.026155 timesync vgsvcTimeSyncWorker: Radical host time change: 335 688 932 000 000ns (HostNow=1 681 346 891 026 000 00
+Apr 12 21:48:11 debian kernel: [55993.093341] e1000: enp0s3 NIC Link is Down
+Apr 12 21:48:11 debian kernel: [55993.121337] usb 2-1: new full-speed USB device number 3 using ohci-pci
+Apr 12 21:48:11 debian kernel: [55993.439988] usb 2-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+Apr 12 21:48:11 debian kernel: [55993.439993] usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Apr 12 21:48:11 debian kernel: [55993.439996] usb 2-1: Product: USB Tablet
+Apr 12 21:48:11 debian kernel: [55993.439998] usb 2-1: Manufacturer: VirtualBox
+Apr 12 21:48:11 debian kernel: [55993.452320] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0002/input/input9
+Apr 12 21:48:11 debian kernel: [55993.453073] hid-generic 0003:80EE:0021.0002: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Apr 12 21:48:13 debian kernel: [55995.173631] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Apr 12 21:48:14 debian kernel: [55995.902169] audit: type=1400 audit(1681346894.118:21): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=4005 comm="cups-browsed" capability=23  capname="sys_nice"
+Apr 12 21:48:19 debian lightdm[3973]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr 12 21:48:30 debian pipewire-media-session[1635]: error id:0 seq:158 res:-32 (Broken pipe): connection error
+Apr 12 22:45:45 debian lightdm[4540]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr 12 22:45:46 debian pulseaudio[4560]: Disabling timer-based scheduling because running inside a VM.
+Apr 12 22:45:46 debian pulseaudio[4560]: Disabling timer-based scheduling because running inside a VM.
+Apr 12 22:50:02 debian kernel: [56002.805295] 00:48:21.027438 timesync vgsvcTimeSyncWorker: Radical guest time change: 335 688 918 318 000ns (GuestNow=1 681 346 901 027 417 
+Apr 12 22:50:02 debian kernel: [59704.612479] e1000: enp0s3 NIC Link is Down
+Apr 12 22:50:06 debian kernel: [59708.644917] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Apr 13 09:07:35 debian kernel: [59712.960599] 12:07:34.150199 timesync vgsvcTimeSyncWorker: Radical host time change: 37 052 974 000 000ns (HostNow=1 681 387 654 150 000 000
+Apr 13 09:07:35 debian kernel: [59714.790856] audit: type=1400 audit(1681387655.978:22): apparmor="DENIED" operation="capable" profile="/usr/sbin/cupsd" pid=4677 comm="cupsd" capability=12  capname="net_admin"
+Apr 13 09:07:36 debian kernel: [59714.828469] audit: type=1400 audit(1681387656.018:23): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=4678 comm="cups-browsed" capability=23  capname="sys_nice"
+Apr 13 09:08:07 debian lightdm[4685]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr 13 09:08:18 debian pipewire-media-session[4563]: error id:0 seq:158 res:-32 (Broken pipe): connection error
